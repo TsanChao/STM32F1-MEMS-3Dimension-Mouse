@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\debug\output\main.o" ".\debug\output\stm32f10x_it.o" ".\debug\output\24l01.o" ".\debug\output\usart.o" ".\debug\output\hw_config.o" ".\debug\output\led.o" ".\debug\output\usb_desc.o" ".\debug\output\usb_istr.o" ".\debug\output\usb_prop.o" ".\debug\output\usb_pwr.o" ".\debug\output\usb_endp.o" ".\debug\output\startup_stm32f10x_md.o" ".\debug\output\core_cm3.o" ".\debug\output\system_stm32f10x.o" ".\debug\output\misc.o" ".\debug\output\stm32f10x_spi.o" ".\debug\output\stm32f10x_rcc.o" ".\debug\output\stm32f10x_usart.o" ".\debug\output\stm32f10x_gpio.o" ".\debug\output\stm32f10x_exti.o" ".\debug\output\usb_core.o" ".\debug\output\usb_init.o" ".\debug\output\usb_int.o" ".\debug\output\usb_mem.o" ".\debug\output\usb_regs.o" 
+--strict --scatter ".\Debug\Output\SPI&USB-Receive.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Debug\Listing\SPI&USB-Receive.map" -o .\Debug\Output\SPI&USB-Receive.axf

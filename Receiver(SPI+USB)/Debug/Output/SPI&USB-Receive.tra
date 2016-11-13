@@ -1,0 +1,44 @@
+*** Creating Trace Output File '.\Debug\Output\SPI&USB-Receive.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\debug\output\main.o"'
+### List of Objects: adding '".\debug\output\stm32f10x_it.o"'
+### List of Objects: adding '".\debug\output\24l01.o"'
+### List of Objects: adding '".\debug\output\usart.o"'
+### List of Objects: adding '".\debug\output\hw_config.o"'
+### List of Objects: adding '".\debug\output\led.o"'
+### List of Objects: adding '".\debug\output\usb_desc.o"'
+### List of Objects: adding '".\debug\output\usb_istr.o"'
+### List of Objects: adding '".\debug\output\usb_prop.o"'
+### List of Objects: adding '".\debug\output\usb_pwr.o"'
+### List of Objects: adding '".\debug\output\usb_endp.o"'
+### List of Objects: adding '".\debug\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\debug\output\core_cm3.o"'
+### List of Objects: adding '".\debug\output\system_stm32f10x.o"'
+### List of Objects: adding '".\debug\output\misc.o"'
+### List of Objects: adding '".\debug\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\debug\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\debug\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\debug\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\debug\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\debug\output\usb_core.o"'
+### List of Objects: adding '".\debug\output\usb_init.o"'
+### List of Objects: adding '".\debug\output\usb_int.o"'
+### List of Objects: adding '".\debug\output\usb_mem.o"'
+### List of Objects: adding '".\debug\output\usb_regs.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\debug\output\main.o" ".\debug\output\stm32f10x_it.o" ".\debug\output\24l01.o" ".\debug\output\usart.o" ".\debug\output\hw_config.o" ".\debug\output\led.o" ".\debug\output\usb_desc.o" ".\debug\output\usb_istr.o" ".\debug\output\usb_prop.o" ".\debug\output\usb_pwr.o" ".\debug\output\usb_endp.o" ".\debug\output\startup_stm32f10x_md.o" ".\debug\output\core_cm3.o" ".\debug\output\system_stm32f10x.o" ".\debug\output\misc.o" ".\debug\output\stm32f10x_spi.o" ".\debug\output\stm32f10x_rcc.o" ".\debug\output\stm32f10x_usart.o" ".\debug\output\stm32f10x_gpio.o" ".\debug\output\stm32f10x_exti.o" ".\debug\output\usb_core.o" ".\debug\output\usb_init.o" ".\debug\output\usb_int.o" ".\debug\output\usb_mem.o" ".\debug\output\usb_regs.o" 
+--strict --scatter ".\Debug\Output\SPI&USB-Receive.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Debug\Listing\SPI&USB-Receive.map" -o .\Debug\Output\SPI&USB-Receive.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Debug\Output\SPI&USB-Receive.axf'
+### ADS-LD Command File: '.\Debug\Output\SPI&USB-Receive.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Debug\Output\SPI&USB-Receive.lnp', Handle=0x000001B4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Debug\Output\SPI&USB-Receive.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
