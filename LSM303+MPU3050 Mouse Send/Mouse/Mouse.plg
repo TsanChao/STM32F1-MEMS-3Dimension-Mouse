@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\我的文档\红蚂蚁实验室\基于惯性器件的空间鼠标设计与实践\GY83姿态\GY83姿态实现\Mouse\Mouse.uvproj
+Project File Date:  02/01/2013
+
+<h2>Output:</h2>
+compiling gyroscope.c...
+D:\Program Files\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\User\gyroscope.c - 1 Error(s), 0 Warning(s).
+compiling gyroscope.c...
+..\User\gyroscope.c - 0 Error(s), 0 Warning(s).
+compiling accelerometer.c...
+..\User\accelerometer.c - 0 Error(s), 0 Warning(s).
+compiling magnetometer.c...
+..\User\magnetometer.c - 0 Error(s), 0 Warning(s).
+compiling analog_iic.c...
+..\User\analog_iic.c - 0 Error(s), 0 Warning(s).
+compiling usart.c...
+..\User\usart.c - 0 Error(s), 0 Warning(s).
+compiling usart.c...
+..\User\usart.c - 0 Error(s), 0 Warning(s).

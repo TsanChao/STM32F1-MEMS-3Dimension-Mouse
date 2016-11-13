@@ -1,0 +1,46 @@
+*** Creating Trace Output File '..\Output\Mouse.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\data_convert.o"'
+### List of Objects: adding '"..\output\accelerometer.o"'
+### List of Objects: adding '"..\output\gyroscope.o"'
+### List of Objects: adding '"..\output\magnetometer.o"'
+### List of Objects: adding '"..\output\calibration.o"'
+### List of Objects: adding '"..\output\analog_iic.o"'
+### List of Objects: adding '"..\output\usart.o"'
+### List of Objects: adding '"..\output\timer.o"'
+### List of Objects: adding '"..\output\24l01.o"'
+### List of Objects: adding '"..\output\key.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\ahrs_matrix.o"'
+### List of Objects: adding '"..\output\ahrs_quat.o"'
+### List of Objects: adding '"..\output\ahrs_states.o"'
+### List of Objects: adding '"..\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_flash.o"'
+### List of Objects: adding '"..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\stm32f10x_spi.o"'
+### List of Objects: adding '"..\output\stm32f10x_exti.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\data_convert.o" "..\output\accelerometer.o" "..\output\gyroscope.o" "..\output\magnetometer.o" "..\output\calibration.o" "..\output\analog_iic.o" "..\output\usart.o" "..\output\timer.o" "..\output\24l01.o" "..\output\key.o" "..\output\delay.o" "..\output\ahrs_matrix.o" "..\output\ahrs_quat.o" "..\output\ahrs_states.o" "..\output\startup_stm32f10x_md.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\misc.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_flash.o" "..\output\stm32f10x_tim.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_spi.o" "..\output\stm32f10x_exti.o" 
+--strict --scatter "..\Output\Mouse.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\Mouse.map" -o ..\Output\Mouse.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\Mouse.axf'
+### ADS-LD Command File: '..\Output\Mouse.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\Mouse.lnp', Handle=0x000016E0
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\Mouse.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

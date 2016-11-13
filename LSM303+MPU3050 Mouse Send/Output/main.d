@@ -1,0 +1,29 @@
+..\Output\main.o: ..\User\src\main.c
+..\Output\main.o: ..\Library\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\Output\main.o: ..\Library\CMSIS\CM3\CoreSupport\core_cm3.h
+..\Output\main.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\Output\main.o: ..\Library\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\Output\main.o: ..\User\inc\stm32f10x_conf.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+..\Output\main.o: ..\Library\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\Output\main.o: ..\Library\STM32F10x_StdPeriph_Driver\inc\misc.h
+..\Output\main.o: ..\User\inc\analog_iic.h
+..\Output\main.o: ..\User\inc\delay.h
+..\Output\main.o: ..\User\inc\key.h
+..\Output\main.o: ..\User\inc\usart.h
+..\Output\main.o: D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\Output\main.o: ..\User\inc\timer.h
+..\Output\main.o: ..\User\inc\24l01.h
+..\Output\main.o: ..\User\inc\gyroscope.h
+..\Output\main.o: ..\User\inc\accelerometer.h
+..\Output\main.o: ..\User\inc\magnetometer.h
+..\Output\main.o: ..\User\inc\calibration.h
+..\Output\main.o: ..\User\inc\AHRS_states.h
+..\Output\main.o: ..\User\inc\AHRS_matrix.h
+..\Output\main.o: ..\User\inc\AHRS_quat.h

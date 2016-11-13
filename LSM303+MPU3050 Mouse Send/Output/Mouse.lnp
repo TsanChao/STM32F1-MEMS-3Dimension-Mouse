@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\data_convert.o" "..\output\accelerometer.o" "..\output\gyroscope.o" "..\output\magnetometer.o" "..\output\calibration.o" "..\output\analog_iic.o" "..\output\usart.o" "..\output\timer.o" "..\output\24l01.o" "..\output\key.o" "..\output\delay.o" "..\output\ahrs_matrix.o" "..\output\ahrs_quat.o" "..\output\ahrs_states.o" "..\output\startup_stm32f10x_md.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\misc.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_flash.o" "..\output\stm32f10x_tim.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_spi.o" "..\output\stm32f10x_exti.o" 
+--strict --scatter "..\Output\Mouse.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\Mouse.map" -o ..\Output\Mouse.axf
